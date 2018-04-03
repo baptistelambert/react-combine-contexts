@@ -1,0 +1,26 @@
+{
+  "name": "react-combine-contexts",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Baptiste Lambert",
+  "repository": "https://github.com/baptistelambert/react-combine-contexts",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "react": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.3.0",
+    "react-dom": ">= 16.3.0"
+  },
+  "files": ["lib", "src"]
+}
