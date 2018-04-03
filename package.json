@@ -1,6 +1,7 @@
 {
   "name": "react-combine-contexts",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Use multiple React Contexts without pain.",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Baptiste Lambert",
